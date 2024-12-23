@@ -25,9 +25,16 @@ const Navbar = () => {
                 >
                     <FaGithub />
                 </a>
+                <a
+                    href="https://drive.google.com/file/d/14czj8jAPgYF0IG2m1w_MeQx4NwlGnn7d/view?usp=drive_link"
+                    download="Shivam_Pandey_Resume.pdf"
+                    className="px-1 py-1 text-white text-1xl bg-blue-500 rounded-3xl hover:bg-white hover:text-blue-600 justify-center text-center"
+                >
+                    Download Resume
+                </a>
             </div>
         </nav>
     );
-}
+};
 
 export default Navbar;
