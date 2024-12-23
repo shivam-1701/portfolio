@@ -47,7 +47,7 @@ const Projects = () => {
                             ))}
                         </motion.div>
                     </div>
-                ))};
+                ))}
             </div>
         </div>
     );
